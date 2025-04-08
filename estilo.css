@@ -1,0 +1,28 @@
+*{
+    padding:  0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.headerC {
+    width: 100vw;
+    height: 10vh;
+    background-color: navy;
+}
+.nav{
+    
+    width: 10%;
+    height: 10%;
+    background-color: brown;
+}
+.main{
+    width: 15%;
+    height: 30%;
+    background-color: darkorange;
+}
+.aside{
+    width: 50%;
+    height: 70%;
+    background-color: hotpink;
+}
