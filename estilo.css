@@ -1,28 +1,158 @@
-*{
-    padding:  0;
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
+  }
+  
+  .barraTop {
+    height: 20px;
+    background-color: #bdebec ;
+  }
 
-}
+  .sobreheadear{
 
-.headerC {
-    width: 100vw;
-    height: 10vh;
-    background-color: navy;
-}
-.nav{
-    
-    width: 10%;
-    height: 10%;
-    background-color: brown;
-}
-.main{
-    width: 15%;
-    height: 30%;
-    background-color: darkorange;
-}
-.aside{
+    background-color: #676b75;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    height: 60px;
+
+  }
+  .header {
+    background-color: #676b75;
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    height: 60px;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    background-color: #bdebec;
+    margin-right: 30px;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .menuItem {
+    width: 40px;
+    height: 6px;
+    background-color: white;
+    border-radius: 2px;
+  }
+  
+  .mainContainer {
+    display: flex;
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+  }
+  
+  .zonaCentro {
+    flex: 3;
+    background-color: #f2f2f2;
+    padding-right: 40px;
+  }
+  
+  .cuadroNaranja {
+    width: 200px;
+    height: 60px;
+    background-color: #fd9f83;
+    margin-bottom: 15px;
+  }
+  
+  .barraOscura {
+    height: 8px;
+    background-color: #4a4d56;
+    margin-bottom: 10px;
+    width: 80%;
+  }
+  
+  .barraGris {
+    height: 6px;
+    background-color: #ccc;
+    margin-bottom: 8px;
+    width: 100%;
+  }
+  
+  .barraGrisClaro {
+    height: 6px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+    width: 60%;
+  }
+  
+  .bloqueMini {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+  
+  .cuadroCeleste {
+    width: 50px;
+    height: 50px;
+    background-color: #aee2e6;
+  }
+  
+  .textoMini {
+    flex-grow: 1;
+  }
+  
+  .cuadroGrisOscuro {
+    background-color: #4a4d56;
+    height: 60px;
+    width: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .lateral {
+    flex: 1;
+    background-color: #d2d2d2;
+    padding: 20px;
+  }
+  
+  .cajita {
+    margin-bottom: 25px;
+  }
+  
+  /* combinaciones unificadas */
+  .barraOscurachica {
+    height: 8px;
+    background-color: #4a4d56;
+    margin-bottom: 10px;
+    width: 60%;
+  }
+  
+  .barraOscuramuyChica {
+    height: 8px;
+    background-color: #4a4d56;
+    margin-bottom: 10px;
+    width: 40%;
+  }
+  
+  .barraOscuracorta {
+    height: 8px;
+    background-color: #4a4d56;
+    margin-bottom: 10px;
     width: 50%;
-    height: 70%;
-    background-color: hotpink;
-}
+  }
+  
+  .barraGriscorta {
+    height: 6px;
+    background-color: #ccc;
+    margin-bottom: 8px;
+    width: 50%;
+  }
+  
+  .barraGrismuyCorta {
+    height: 6px;
+    background-color: #ccc;
+    margin-bottom: 8px;
+    width: 30%;
+  }
+  
