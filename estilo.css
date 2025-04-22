@@ -5,24 +5,26 @@
   }
   
   .barraTop {
-    height: 20px;
-    background-color: #bdebec ;
+    height: 40px;
+    background-color: #11b0b3 ;
   }
 
   
   .header {
-    background-color: #676b75;
+    background-color: #3b3d44;
     display: flex;
     align-items: center;
     padding: 15px 30px;
-    height: 60px;
+    height: 100px;
   }
   
   .logo {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     background-color: #bdebec;
-    margin-right: 30px;
+    margin-right: 35px;
+    margin-left: 55px;
+
   }
   
   .menu {
@@ -72,7 +74,7 @@
   }
   
   .barraGrisClaro {
-    height: 6px;
+    height: 10px;
     background-color: #ddd;
     margin-bottom: 20px;
     width: 60%;
@@ -86,8 +88,8 @@
   }
   
   .cuadroCeleste {
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
     background-color: #aee2e6;
   }
   
@@ -96,8 +98,8 @@
   }
   
   .cuadroGrisOscuro {
-    background-color: #4a4d56;
-    height: 60px;
+    background-color: #303136;
+    height: 50px;
     width: 200px;
     margin-bottom: 20px;
   }
@@ -112,7 +114,6 @@
     margin-bottom: 25px;
   }
   
-  /* combinaciones unificadas */
   .barraOscurachica {
     height: 8px;
     background-color: #4a4d56;
